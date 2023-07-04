@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324606956297",
+    "project_id": "ex1formation",
+    "storage_bucket": "ex1formation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324606956297:android:e31d43cea234b5c18339d8",
+        "android_client_info": {
+          "package_name": "com.example.ex1formation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324606956297-tutt40rj4g3r503o3epr2jmb8ujn0p9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXVw6KAcliuYAzjm_cCr_NjznRoRebWi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324606956297-tutt40rj4g3r503o3epr2jmb8ujn0p9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

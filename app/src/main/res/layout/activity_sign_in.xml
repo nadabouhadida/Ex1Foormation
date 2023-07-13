@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+    android:background="@color/greenbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/welocme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome To \n Our Application"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="@color/vert2"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentLeft="true"
+                android:padding="20dp"
+                />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign In"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="@color/vert2"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/shape"
+            android:hint=" Email Address"
+            android:paddingStart="20dp"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/shape"
+            android:hint=" Password"
+            android:paddingStart="20dp"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/baseline_password_24"
+            android:layout_marginTop="20dp"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"
+            android:textSize="20sp"
+            android:textColor="@color/vert1"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/vert1"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            app:cornerRadius="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Forget Password"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textColor="@color/vert2"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="New Account"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/vert1"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Forget"
-    android:background="@color/greenbackground">
+    android:background="@color/purpleC">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                 android:text="Welcome To \n Our Application"
                 android:textSize="25sp"
                 android:textAlignment="center"
-                android:textColor="@color/vert2"
+                android:textColor="@color/blue"
                 android:textStyle="bold"
                 android:layout_marginTop="30dp"
                 android:layout_alignParentLeft="true"
@@ -37,7 +37,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/logo"
+                android:src="@drawable/logo1"
                 android:layout_alignParentRight="true"/>
 
         </RelativeLayout>
@@ -48,10 +48,11 @@
         android:text="Enter Your Email Address"
         android:textSize="35sp"
         android:textStyle="bold"
-        android:textColor="@color/vert2"
+        android:textColor="@color/blue"
         android:textAlignment="center"
         android:layout_marginTop="80dp"/>
     <EditText
+        android:id="@+id/mail"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/shape"
@@ -64,11 +65,12 @@
         />
 
     <Button
+        android:id="@+id/forgetbtn"
         android:layout_width="220dp"
         android:layout_height="60dp"
         android:text="Reset Password"
         android:textAllCaps="false"
-        android:backgroundTint="@color/vert1"
+        android:backgroundTint="@color/purple"
         android:layout_gravity="center"
         android:textSize="20sp"
         app:cornerRadius="30dp"
@@ -81,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/vert2"
+            android:backgroundTint="@color/blue"
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"

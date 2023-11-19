@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:ignore="SpeakableTextPresentCheck"
-    android:background="@color/greenbackground">
+    android:background="@color/purpleC">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                 android:text="Welcome To \n Our Application"
                 android:textSize="25sp"
                 android:textAlignment="center"
-                android:textColor="@color/vert2"
+                android:textColor="@color/blue"
                 android:textStyle="bold"
                 android:layout_marginTop="30dp"
                 android:layout_alignParentLeft="true"
@@ -38,7 +38,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/logo"
+                android:src="@drawable/logo1"
                 android:layout_alignParentRight="true"/>
 
         </RelativeLayout>
@@ -52,6 +52,7 @@
             android:layout_marginRight="20dp"
             >
             <EditText
+                android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/shape"
@@ -64,6 +65,7 @@
                 />
 
             <EditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/shape"
@@ -75,6 +77,7 @@
                 android:layout_marginTop="10dp"
                 />
             <EditText
+                android:id="@+id/phone"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/shape"
@@ -86,6 +89,7 @@
                 android:layout_marginTop="10dp"
                 />
             <EditText
+                android:id="@+id/cin"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/shape"
@@ -97,6 +101,7 @@
                 android:layout_marginTop="10dp"
                 />
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/shape"
@@ -116,7 +121,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="@color/vert1"
+            android:backgroundTint="@color/purple"
             android:text="Create Account"
             android:textAllCaps="false"
             android:textSize="20sp"

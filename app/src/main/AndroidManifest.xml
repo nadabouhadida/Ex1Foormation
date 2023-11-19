@@ -9,10 +9,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MYPARTY"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex1Formation"
         tools:targetApi="31">
+        <activity
+            android:name=".homePage"
+            android:exported="false" />
         <activity
             android:name=".Forget"
             android:exported="false" />
@@ -28,7 +31,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
-
     </application>
 
 </manifest>
